@@ -1,0 +1,12 @@
+Algoritmo "Parcelamento"
+
+Var
+        Produto, Parcelas, ValorParcela: Real
+Inicio
+      Escreva("Quanto Custa o produto? ")
+      Leia (Produto)
+      Escreva("Quantas parcelas vou parcelar? ")
+      Leia (Parcelas)
+      ValorParcela <- (((Produto * 20)/100) + Produto) /Parcelas)
+      Escreva("Serao ", Parcelas, " parcelas ", " de ", ValorParcela, " reais")
+Fimalgoritmo

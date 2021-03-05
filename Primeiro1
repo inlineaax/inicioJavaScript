@@ -1,0 +1,16 @@
+Algoritmo "primeiro"
+
+Var
+       N1, N2: Inteiro
+       S: Real
+
+
+Inicio
+       ESCREVA("Informe um numero: ")
+       LEIA (N1)
+       ESCREVA("Informe outro numero: ")
+       LEIA (N2)
+       S <- (N1 + N2) / 2
+       Escreva("A media de ", N1, " e ", N2, " e igual a ", S)
+
+Fimalgoritmo
